@@ -38,7 +38,7 @@ files = ["Xtrain.csv","Xtest.csv","ytrain.csv","ytest.csv"]
 for file_path in files:
     api.upload_file(
         path_or_fileobj=file_path,
-        path_in_repo=file_path.split("/")[-1],  # just the filename
-        repo_id="ccwizard/PIMA-Diabetes-Prediction",                                           # enter the Hugging Face username here
+        path_in_repo=file_path.split("/")[-1],  # get just the filename
+        repo_id="ccwizard/PIMA-Diabetes-Prediction",
         repo_type="dataset",
     )

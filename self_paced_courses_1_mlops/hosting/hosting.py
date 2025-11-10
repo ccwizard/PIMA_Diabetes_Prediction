@@ -1,4 +1,7 @@
+# Import Huggingface API library
 from huggingface_hub import HfApi
+
+# Import OS for operating system functionality
 import os
 
 api = HfApi(token=os.getenv("HF_TOKEN"))

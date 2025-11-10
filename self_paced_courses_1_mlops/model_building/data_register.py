@@ -2,7 +2,7 @@
 from huggingface_hub.utils import RepositoryNotFoundError, HfHubHTTPError
 from huggingface_hub import HfApi, create_repo
 
-# for creating a folder
+# for operating system functionality
 import os
 
 repo_id = "ccwizard/PIMA-Diabetes-Prediction"
